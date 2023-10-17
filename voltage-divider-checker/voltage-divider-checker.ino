@@ -2,7 +2,7 @@ const int analogPin = A0;
 
 const int btnPin = 2;
 
-int btnPrevState = LOW;
+int btnPrevState = HIGH;
 
 void setup() {
   pinMode(btnPin, INPUT_PULLUP);
